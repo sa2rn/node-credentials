@@ -1,5 +1,3 @@
-import Credentials from './Credentials';
-
-const credential = new Credentials({ username: 'foo', password: 'bar' });
-
-console.log(credential);
+export { default as File } from './File';
+export { default as EncodedFile } from './EncodedFile';
+export { default as Coder } from './Coder';

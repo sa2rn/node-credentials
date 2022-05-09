@@ -1,9 +1,18 @@
 {
   "extends": "@tsconfig/node14/tsconfig.json",
-  "include": [
-    "src"
+  "exclude": [
+    "node_modules",
+    "dist"
   ],
   "compilerOptions": {
-    "outDir": "dist"
+    "noEmitOnError": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@test-helpers/*": ["./test/support/helpers/*"]
+    }
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
   }
 }
