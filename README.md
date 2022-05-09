@@ -1,1 +1,1 @@
-# node-credentials
+# node-secrets

@@ -1,5 +1,5 @@
 {
-  "name": "node-credentials",
+  "name": "node-secrets",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-credentials/node-credentials.git"
+    "url": "git://github.com/node-credentials/node-secrets.git"
   },
   "bin": {
-    "credentials": "./dist/cli.js"
+    "secrets": "./dist/cli.js"
   },
   "author": "",
   "license": "ISC",
